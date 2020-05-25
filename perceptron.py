@@ -10,7 +10,7 @@ class Perceptron(object):
 
     Attributes:
     -----------
-    w_ - weight vector
+    w_ - weight vector (also include bias at w_[0])
     errors_ - vector of errors
 
     Methods:
